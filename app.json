@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Corona Tracker",
+    "slug": "CoronaTracker",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "1.0.1",
+      "bundleIdentifier": "com.sdeniss.coronatracker"
+    },
+    "android": {
+        "package": "com.sdeniss.coronatracker",
+        "versionCode": 2,
+        "config": {
+          "googleMaps": {
+            "apiKey": "AIzaSyBBX8Bkl_nCAzL_jCbmkyvM-JRs7uE7Urc"
+          }
+        },
+        "permissions": [
+          "ACCESS_COARSE_LOCATION",
+          "ACCESS_FINE_LOCATION",
+          "READ_EXTERNAL_STORAGE",
+          "VIBRATE",
+          "WAKE_LOCK",
+          "WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ]
+    }
+  }
+}
